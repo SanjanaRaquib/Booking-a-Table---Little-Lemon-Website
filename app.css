@@ -1,0 +1,142 @@
+/* Headings */
+h1 {
+  font-family: 'Playfair Display', serif; /* Replace with your desired font */
+  font-size: 3em;
+  color: #333; /* Adjust based on your color scheme */
+  margin-bottom: 1em;
+}
+
+h2, h3 {
+  font-family: 'Open Sans', sans-serif; /* Replace with your desired font */
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 1em;
+}
+
+h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif; /* Replace with your desired font */
+  font-size: 1em;
+  color: #333;
+  margin-bottom: 0.5em;
+}
+
+/* Paragraphs */
+p {
+  font-family: 'Open Sans', sans-serif'; /* Replace with your desired font */
+  font-size: 1em;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 1em;
+}
+
+/* Spans (optional) */
+span {
+  font-family: 'Open Sans', sans-serif; /* Replace with your desired font */
+  font-size: 1em;
+  color: #999;
+}
+
+nav {
+  background-color: #f5f5f5; /* Light background for navigation */
+  padding: 1em 2em;
+  display: flex; /* Horizontal layout for navigation items */
+  justify-content: space-between; /* Space items evenly */
+}
+
+ul {
+  list-style: none; /* Remove default bullets */
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline-block; /* Horizontal layout for navigation links */
+  margin-right: 1em;
+}
+
+a { /* Style for navigation links */
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+a:hover { /* Hover effect for navigation links (optional) */
+  color: #000;
+}
+
+img {
+  max-width: 100%; /* Ensure images scale proportionally */
+  border-radius: 5px; /* Add a slight roundness to images (optional) */
+  margin-bottom: 1em;
+}
+
+.highlights {
+  background-color: #f0f0f0;
+  padding: 2em;
+}
+
+.highlights-container {
+  display: flex; /* Horizontal layout for highlights */
+  overflow-x: scroll; /* Enable horizontal scrolling for many items */
+  white-space: nowrap; /* Prevent items from wrapping to next line */
+  margin-bottom: 2em;
+}
+
+.highlight {
+  margin-right: 2em;
+  text-align: center;
+}
+
+.highlight img {
+  width: 200px; /* Adjust image width as needed */
+  height: 200px; /* Adjust image height as needed */
+}
+
+.highlight p {
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.button { /* Style the "Order Online" button */
+  background-color: #333;
+  color: #fff;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover { /* Button hover effect (optional) */
+  background-color: #000;
+}
+
+.testimonials {
+  background-color: #eee;
+  padding: 2em;
+}
+
+.testimonials-container {
+  display: flex; /* Can be adjusted for layout preference */
+  flex-wrap: wrap; /* Allow testimonials to wrap on smaller screens */
+  margin-bottom: 2em;
+}
+
+.testimonial {
+  padding: 1em;
+  margin: 0.5em;
+  border: 1px solid #ddd; /* Optional border for each testimonial */
+  border-radius: 5px; /* Optional rounded corners */
+}
+
+.testimonial p {
+  margin-bottom: 0.5em;
+}
+
+.about {
+  padding: 2em;
+}
+
